@@ -1,0 +1,486 @@
+.firstPart{
+    position: relative;
+    
+    width: 100%;
+    min-height: 100px;
+    max-height: 700px;
+    
+    overflow: hidden;
+    transition: height 1s ease;
+    font-family: "Agdasima", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.firstEarthImg{
+    width: 100%;
+    height: 100%;
+}
+.firstEarthImg img{
+    width: 100%;
+    height: 110%;
+    opacity: 0.5;
+    transition: height 1s ease;
+}
+
+.earthPicText h1{
+    position: absolute;
+    top: 40%;
+    left: 10px;
+    color: aliceblue;
+
+    font-size: 250%;
+}
+.earthPicText p{
+    position: absolute;
+    top: 50%;
+    left: 10px;
+    color: aliceblue;
+
+    font-size: 150%;
+}
+
+/*SECOND PART - TEXT ---------------------------------*/
+#secondEarth{
+    display: flex;
+    flex-direction: column;
+    min-height: 500px;
+    background-color: rgb(252, 255, 255);
+    padding-bottom: 200px;
+
+    font-family: "Agdasima", sans-serif;
+    font-weight: 400;
+    font-size: large;
+    font-style: normal;
+}
+.textPart{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    
+    padding: 50px 250px 10px 250px;
+}
+.textPart p{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.textPart img{
+    padding: 50px;
+}
+
+
+
+#factsTitle{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 50px;
+    background-color: rgb(252, 255, 255);
+
+    font-family: "Agdasima", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+/*THIRD PART - CARDS FIRST DESIGN ---------------------------------*/
+
+.cards{
+    position: relative;
+    
+    height: 350px;
+    width: 300px;
+    background-color: black;
+    color: rgb(255, 255, 255);
+    margin: 10px;
+    border-radius: 5px 5px 5px 5px;
+    -webkit-box-shadow: 0 0 10px #000000;
+        box-shadow: 0 0px 10px #000000;
+}
+.cards:hover{
+    opacity: 0.9;
+}
+.cardsImg{
+    height: 100%;
+    opacity: 0.5;
+    overflow: hidden;
+}
+.cardsImg img{
+    height: 100%;
+    width: 100%;
+    
+    border-radius: 5px 5px 5px 5px;
+}
+.cardsTitle{
+    position: absolute;
+    top: 50px;
+    height: 30%;
+    width: 100%;
+    text-align: center;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.cardsText{
+    position: absolute;
+    top: 150px;
+    height: 40%;
+    width: 100%;
+    text-align: center;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.cardsBottom{
+    position: absolute;
+    bottom: 15px;
+    left: 250px;
+}
+
+
+/*CARDS SECOND DESIGN----------------------------------------------*/
+.cardsSecond{
+    position: relative;
+    
+    height: 450px;
+    width: 300px;
+    background-color: aliceblue;
+    color: rgb(0, 0, 0);
+    margin: 10px;
+    border-radius: 5px 5px 5px 5px;
+    -webkit-box-shadow: 0 0 10px #000000;
+        box-shadow: 0px 2px 5px #000000;
+}
+.cardsSecond:hover{
+    opacity: 0.9;
+    font-weight: bolder;
+    background-color: rgb(250, 253, 255);
+}
+
+.cardsImgSecond{
+    height: 40%;
+}
+.cardsImgSecond img{
+    height: 100%;
+    width: 100%;
+    border-radius: 5px 5px 0px 0px ;
+}
+.cardsTitleSecond{
+    height: 20%;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    padding: 15px;
+}
+.cardsTextSecond{
+    padding: 15px;
+    color: rgb(99, 98, 98);
+}
+
+/*SPACE BETWEEN-------------------------------------------------------*/
+.spaceBetween{
+    height: 0px;
+    border-bottom: 2px solid black;
+}
+.spaceBetween2{
+    height: 10px;
+    border-bottom: 2px solid black;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+
+/*SWIPER--------------------------------------------------------------*/
+.swiper{
+    background-color: rgb(252, 255, 255);
+}
+.swiper-slide{
+    display: flex;
+    justify-content: center;
+    object-fit: contain;
+}
+.swiper-slide img{
+    max-width: 100%;  /*With this the images don't overlap*/
+}
+.mySwiper{
+    font-family: "Agdasima", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.mySwiper2{
+    height: 700px;
+    max-width: 100%;
+}
+
+/*DISCOVER HEADLINES*/
+#discoverHeadline{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 50px;
+    padding-top: 150px;
+    background-color: rgb(252, 255, 255);
+
+    font-family: "Agdasima", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.topics{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-color: rgb(252, 255, 255);
+}
+.topic{
+    height: 550px;
+    width: 320px;
+    margin: 10px;
+
+    position: relative;
+}
+.topicImage{
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+.topic img{
+    height: 100%;
+    width: 100%;
+}
+.topic a{
+    position: absolute;
+    bottom: 20px;
+    left: 10px;
+    color: white;
+}
+
+.topic:hover{
+    opacity: 0.9;
+}
+
+
+.topic-social a{
+    color: #000000;
+}
+
+/*NEWS----------------------------------------------------------------*/
+#newsPart{
+    min-height: 700px;
+    min-width: 300px;
+    margin: auto;
+    background-color: rgb(252, 255, 255);
+    padding-top: 250px;
+
+    font-family: "Agdasima", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.news{
+    display: flex;
+    justify-content: center;
+    font-size: xx-large;
+    
+}
+
+/*NEWS SINGLE---------------------------------------------------------*/
+.newsSingle{
+    min-height: 250px;
+    background-color: rgb(252, 255, 255);
+    padding: 100px 100px 20px 100px;
+    display: flex;
+    flex-direction: row;
+}
+a{
+    text-decoration: none;
+    color: #000000;
+}
+.newsText{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+}
+.newsHeader{
+    height: 20%;
+    display: flex;
+    justify-content: start;
+    align-items: end;
+}
+.newsHeader:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+.newsSubHeading{
+    height: 10%;
+    display: flex;
+    justify-content: start;
+    align-items: start;
+}
+
+.timeAndWhat{
+    height: 30%;
+    display: flex;
+    justify-content: start;
+    align-items: start;
+}
+
+
+.clickButton{
+    height: 20%;
+}
+.clickButton a{
+    height: 30px;
+    width: 80px;
+    background-color: rgb(252, 255, 255);
+    border: 2px solid black;
+} 
+.clickButton a:hover{
+    cursor: pointer;
+}
+
+.newsImg{
+    width: 60%;
+    
+}
+.newsImg img{
+    height: 100%;
+    width: 100%;
+    
+}
+
+/*OTHER NEWS----------------------------------------------------*/
+.newsMany{
+    min-height: 600px;
+    padding: 40px 100px 20px 100px;
+    display: flex;
+    flex-direction: column;
+}
+
+.newsTextLongs{
+    height: 200px;
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    border-top: 2px solid gainsboro;
+}
+.newsTextLongs:hover{
+    opacity: 0.8;
+    text-decoration: underline;
+    cursor: pointer;
+}
+.longsTextPart{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+.longsHeader{
+    height: 30%;
+    display: flex;
+    justify-content: start;
+    align-items: end;
+}
+.longsSubHeader{
+    height: 20%;
+    display: flex;
+    align-items: center;
+}
+.longsTimeAndWhat{
+    height: 50%;
+    display: flex;
+    justify-content: start;
+    align-items: end;
+}
+
+.longsImgPart{
+    width: 50%;
+    display: flex;
+    justify-content: end;
+}
+.longsImgPart img{
+    height: 100%;
+    width: 50%;
+}
+
+
+@media(max-width: 1200px){
+    .firstPart{
+        height: 600px;
+        transition: height 1s ease;
+    }
+    .firstEarthImg img{
+        
+        transition: height 1s ease;
+    }
+    .newsSingle{
+        flex-direction: column;
+    }
+    .newsText{
+        order: 2;
+    }
+    .newsImg{
+        width: 100%;
+        order: 1;
+    }
+    .newsHeader{
+        padding-top: 10px;
+    }
+    .clickButton{
+        padding-top: 10px;
+    }
+    .timeAndWhat{
+        display: none;
+    }
+}
+
+
+@media(min-width: 1200px){
+    .firstPart{
+        height: 800px;
+        transition: height 1s ease;
+    }
+    .firstEarthImg img{
+        height: 800px;
+        transition: height 1s ease;
+    }
+}
+
+@media(max-width: 900px){
+    .textPart{
+        padding: 50px 50px 10px 50px;
+    }
+    .textPart img{
+        padding: 20px;
+    }
+
+    .longsImgPart img{
+        height: 100%;
+        width: 70%;
+    }
+    .earthPicText h1{
+        top: 30%;
+    }
+    .earthPicText p{
+        top: 45%;
+    }
+
+}
+@media(max-width: 620px){
+    .newsSingle{
+        min-height: 50px;
+        padding: 100px 20px 20px 20px;
+    }
+    .spaceBetween2{
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    .newsMany{
+        min-height: 50px;
+        padding: 100px 20px 20px 20px;
+    }
+
+    .longsImgPart img{
+        height: 100%;
+        width: 100%;
+    }
+    .earthPicText h1{
+        top: 10%;
+    }
+    .earthPicText p{
+        top: 25%;
+    }
+}

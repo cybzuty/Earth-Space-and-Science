@@ -1,0 +1,670 @@
+.body{
+    display: flex;
+    flex-direction: column;
+    min-height: 60vh;
+    background-color: aliceblue;
+    height: auto;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+.profile{
+    display: flex;
+    flex-direction: column;
+    height: 900px;
+    max-width: 1200px;
+    min-width: 300px;
+    margin: auto;
+
+    background-color: #ffffff;
+    background-image: url("https://www.transparenttextures.com/patterns/gplay.png");
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: large;
+}
+/**EDIT PAGE--------------------------------------*/
+.edit-page{
+    display: flex;
+    flex-direction: column;
+    height: 900px;
+    max-width: 1200px;
+    min-width: 300px;
+    margin: auto;
+    background: url("../../assets/images/white-background.jpg") top 20px center /cover no-repeat;
+    /**
+    background-color: #ffffff;
+    background-image: url("https://www.transparenttextures.com/patterns/gplay.png");
+    */
+}
+
+.avatarEditPic{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    height: 30%;
+    padding-left: 10px;
+    padding-top: 5%;
+}
+.avatar-edit-pic{
+    width: 250px;
+    display: flex;
+    justify-content: center;
+}
+.avatar-edit-pic img{
+    height: 170px;
+    width: 170px;
+    border-radius: 50%;
+    margin: 10px;
+}
+
+.avatar-edit-upload{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 50%;
+}
+.avatar-edit-upload input{
+    margin-bottom: 20px;
+}
+.avatar-edit-button{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.edit-page button{
+    margin-top: 20px;
+    width: 250px;
+    height: 30px;
+    border: 1px solid black;
+    background-color: transparent;
+    border-radius: 20px;
+}
+.edit-page button:hover{
+    background-color: #ffffff;
+    cursor: pointer;
+}
+
+.backgroundPic{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 30%;
+}
+.backgroundPic img{
+    height: 170px;
+    width: 250px;
+}
+
+.backEditPic{
+    width: 250px;
+    display: flex;
+    justify-content: center;
+}
+.backEditPic img{
+    height: 200px;
+    width: 100%;
+    border-radius: 10px;
+}
+
+.editInput{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+.editInput input{
+    width: 80%;
+    height: 40px;
+    border-radius: 10px;
+    text-align: center;
+    margin-top: 5px;
+}
+
+.editUpdate{
+    display: flex;
+    justify-content: center;
+}
+.editUpdate button{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#popup-20{
+    width: 500px;
+    height: 250px;
+    border-radius: 20px;
+    background-color: #f1f1f1;
+    border: 2px solid black;
+}
+.modal{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 15px;
+    width: 100%;
+    height: 100%;
+    background-color: #efe9e2;
+    font-weight: bold;
+    font-size: larger;
+    box-shadow: inset 0px 0px 15px #000000;
+}
+.modal button{
+    height: 40px;
+    width: 150px;
+    margin-left: 5px;
+    margin-right: 5px;
+    border: 1px solid grey;
+    border-radius: 20px;
+    background-color: transparent;
+    font-size: large;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.modal button:hover{
+    cursor: pointer;
+    background-color: #ffffff;
+}
+
+/**PROFILE PAGE--------------------------------------*/
+.backImg{
+    width: 100%;
+    max-height: 500px;
+    overflow: hidden;
+}    
+.backImg img:first-child {
+    width: 100%;
+    bottom: 150%;
+}
+
+.avatarPic{
+    display: flex;
+    justify-content: start;
+    height: 5px;
+}
+.avatarPic img{
+    height: 170px;
+    width: 170px;
+    border-radius: 50%;
+    border: 5px solid aliceblue;
+    position: relative;
+    bottom: 50px;
+    left: 50px;
+
+    background-color: aliceblue;
+}
+
+.profileName{
+    display: flex;
+    justify-content: center;    
+}
+.profile-edit{
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 5px;
+    
+}
+.profile-edit button{
+    background-color: transparent;
+    border-radius: 10px;
+    border: none;
+    margin-left: 8px;
+}
+.profile-edit button:hover{
+    background-color: rgb(211, 211, 211);
+    border-radius: 30%;
+    cursor: pointer;
+}
+
+.profDegree{
+    display: flex;
+    justify-content: center;
+}
+
+.place{
+    height: 10%;
+    display: flex;
+    flex-direction: row;
+    align-items: end;
+    position: relative;
+    left: 10%;
+}
+.place p{
+    margin-left: 10px;
+}
+.school{
+    height: 5%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    position: relative;
+    left: 10%;
+}
+.school p{
+    margin-left: 10px;
+}
+
+.aboutMe{
+    display: flex;
+    flex-grow: 1;
+    align-items: center;
+    margin-left: 10%;
+    margin-right: 10%;
+    
+}
+
+.iconsProfile{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 5px;
+}
+.iconsProfile a{
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.iconsProfile svg:hover{
+   color: chartreuse;
+}
+
+
+
+/** BOTTOM PART --------------------------------------**/
+.profileDetails{
+    border-top: 5px solid black;
+    display: grid;
+    grid-template-columns: 40% 60%;
+    
+
+    max-width: 1200px;
+    min-width: 0px;
+    margin: auto;
+    
+
+    background-color: #ffffff;
+    background-image: url("https://www.transparenttextures.com/patterns/gplay.png");
+}
+.myPosts{
+    border-right: 1px solid rgba(114, 107, 107, 0.603);
+}
+
+
+
+
+
+
+
+/*PUBLISH BUTTON AND PUBLISH PART---------------------*/
+.myPosts{
+    display: flex;
+    flex-direction: column;
+    padding: 2%;
+}
+
+#publicationOpen{
+    display: flex;
+    height: 120px;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffffff;
+    transition: height 1s ease;
+
+    border-radius: 20px 20px 20px 20px;
+    border: 1px solid black;
+}
+#publicationClosed{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    height: 0px;
+    background-color: #ffffff;
+    transition: height 1s ease;
+
+    border-radius: 20px 20px 20px 20px;
+    
+}
+.buttonClosed{
+    height: 0px;
+    width: 155px;
+    
+    border: none;
+    border-radius: 20px 20px 20px 20px;
+    color: white;
+    font-size: 0px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #ffffff;
+    transition: height 1s ease, font-size 1s ease, background-color 1s ease;
+}
+
+.buttonOpen{
+    height: 45px;
+    width: 155px;
+    border-radius: 20px 20px 20px 20px;
+    border: none;
+
+    color: white;
+    font-size: medium;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: darkturquoise;
+    transition: height 1s ease, font-size 1s ease, background-color 1s ease;
+}
+#publicationOpen button:hover{
+    cursor: pointer;
+}
+
+.editOpen{
+    height: 250px;
+    background-color: #D5E4F4;
+    
+    
+    transition: height 1s ease;
+    transition-delay: display 1s;
+    display: flex;
+    flex-direction: column;
+
+    border-radius: 20px 20px 20px 20px;
+    border: 1px solid black;
+}
+.closeBtn{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    height: 50px;
+    padding-right: 3%;
+
+    overflow: hidden;
+}
+.editOpen button{
+    display: flex;
+    justify-content: center;
+    height: 20px;
+    width: 30px;
+    background: transparent;
+    border: 0;
+    cursor: pointer;
+}
+.editClosed{
+    height: 0px;
+    
+    border-radius: 20px;
+    transition: height 1s ease;
+}
+
+.avatarText{
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+    height: 200px;
+}
+
+.miniAvatar{
+    display: flex;
+    justify-content: center;
+    width: 15%;
+}
+.miniAvatar img{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    
+}
+
+.inputText{
+    width: 80%;
+    margin-top: 10px;
+}
+.inputText textarea{
+    height: 90%;
+    width: 90%;
+    border: 0;
+    background-color: #D5E4F4;
+    box-sizing: border-box;
+    font-size: larger;
+    text-align: start;
+    outline-style: none;
+    resize: none;
+}
+
+.iconsAndShare{
+    height: 60px;
+    display: flex;
+    flex-direction: row;
+    border-top: 2px solid gray;
+    background-color: #D5E4F4;
+    border-radius: 0 0 20px 20px;
+    overflow: hidden;
+}
+.sharingIcons{
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 3%;
+}
+.shareBtn{
+    width: 20%;
+    display: flex;
+    justify-content: end;
+    margin-right: 3%;
+    align-items: center;
+}
+.shareBtn button{
+    width: 50px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    background-color: rgb(194, 214, 216);
+    border: 1px solid black;
+}
+
+
+/*POSTS-------------------------------------------------*/
+.posts{
+    margin-top: 50px;
+    max-height: 100%;
+    overflow-y: auto;
+}
+/* Hide scrollbar for Chrome*/
+.posts::-webkit-scrollbar {
+    display: none;
+}
+/* Hide scrollbar for IE, Edge and Firefox */
+.posts {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
+.post{
+    min-height: 100px;
+    display: flex;
+    flex-direction: column;
+    background-color: #ecf0f1;
+    border-radius: 20px;
+    border: 2px solid grey;
+    margin-bottom: 15px;
+}
+.postFirst{
+    display: flex;
+    flex-direction: row;
+    height: 50px;
+    
+}
+
+.postAvatar{
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+    margin-left: 5px;
+}
+.postAvatar img{
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    border: 0px solid black;
+}
+
+.postText{
+    display: flex;
+    width: 100%;
+    
+    padding: 0px 15px 15px 15px;
+    word-break: break-all; /*Breaks the word if it has no whitespace*/
+}
+
+.postsIcons{
+    width: 50%;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    margin-right: 5px;
+}
+.postsIcons button{
+    height: 25px;
+    border: none;
+    background-color: #ecf0f1;
+}
+.postsIcons button:hover{
+    cursor: pointer;
+}
+.postsIcons img{
+    height: 25px;
+}
+
+.postImg{
+    width: 100%;
+}
+.postImg img{
+    width: 100%;
+    padding: 5px;
+    border-radius: 10px;
+}
+.postImg img:hover{
+    cursor: pointer;
+}
+
+
+/*PROFILE GALLERY-----------------------------------------------------*/
+.myPics{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-auto-rows: 220px;
+    
+    background-color: #ffffff;
+    background-image: url("https://www.transparenttextures.com/patterns/gplay.png");
+}
+
+.gallery{
+    height: 100%;
+    border: 1px solid black;
+    
+}
+.gallery img{
+    width: 100%;
+    height: 100%;
+}
+.gallery img:hover{
+    cursor: pointer;
+}
+.gallery button{
+    position: relative;
+    bottom: 101%;
+    left: 1px;
+    z-index: 1;
+}
+  
+/*MEDIA CONFS-------------------------------------------*/
+@media(max-width: 1200px){
+    
+    .profile{
+        display: flex;
+        flex-direction: column;
+        min-height: 950px;
+    }
+    .avatarPic{
+        justify-content: center;
+        height: 100px;
+    }
+    .avatarPic img{
+        left: 0;
+    }
+
+    .profileName{
+        align-items: end;
+    }
+    .place{
+        justify-content: center;
+        height: 5%;
+        left: 0;
+    }
+    .school{
+        justify-content: center;
+        left: 0;
+    }
+    .profile-edit{
+        position: relative;
+        bottom: 85px;
+    }
+    
+   
+}
+@media(max-width: 1000px) {
+    .myPics{
+        grid-template-columns: 1fr 1fr;
+    }
+    
+  }
+@media(max-width: 700px) {
+    .myPics{
+        grid-template-columns: 1fr;
+        gap: 5px;
+    }
+    
+}
+@media(max-width: 527px){
+    .edit-page{
+        height: 1200px;
+        flex-wrap: wrap;
+    }
+    .edit-page button{
+        margin-top: 10px;
+        margin-left: 10px;
+        width: 100px;
+    }
+    .avatar-edit-button{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .avatarEditPic{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+    .avatar-edit-upload{
+        align-items: center;
+        width: 100%;
+    }
+
+    .editUpdate{
+        width: 100%;
+        align-items: center;
+    }
+
+    
+}
+
+

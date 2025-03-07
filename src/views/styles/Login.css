@@ -1,0 +1,131 @@
+.loginPage{
+    height: 100vh;
+    background-color: black;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.loginPage img{
+    height: 100%;
+    width: 100%;
+    opacity: 0.7;
+    
+}
+
+
+.loginData{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+    width: 400px;
+    background-color: aliceblue;
+    
+    border-radius: 10%;
+    opacity: 0.4;
+}
+.regisData{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 600px;
+    width: 450px;
+    background-color: aliceblue;
+    
+    border-radius: 10%;
+    opacity: 0.5;
+}
+
+
+.loginOver{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+    width: 400px;
+    border-radius: 10%;
+}
+.regisOver{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 600px;
+    width: 450px;
+    border-radius: 10%;
+}
+
+.loginPage .title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30%;
+}
+.text-input{
+    height: 10%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.loginPage input{
+    border: none;
+    width: 80%;
+    height: 80%;
+    border: none;
+    border-bottom: 1px solid;
+    outline: none;
+    text-align: left;
+    font-size: medium;
+    background-color: transparent;
+}
+.loginPage input:focus{
+    background-color: aliceblue;
+    opacity: 0.7;
+}
+
+
+.loginPage .submit-button{
+    height: 20%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.loginPage button{
+    height: 30%;
+    width: 50%;
+    background-color: transparent;
+    border: 2px solid black;
+    font-size: medium;
+    outline-color: black;
+}
+.loginPage button:hover{
+    background-color: azure;
+    cursor: pointer;
+}
+
+.loginOver .register-button{
+    height: 20%;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+}
+
+.regisOver .register-button{
+    height: 20%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+}
+
+
