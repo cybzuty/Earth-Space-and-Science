@@ -1,6 +1,6 @@
 # Earth, Space and Science
 
-## I created this projects as a practice, it doesn't have any purpose except for some general facts about Earth, Space etc.
+## I created this project as a practice, it doesn't have any purpose except for some general facts about Earth, Space etc.
 
 With this project I learned a lot about programming, and all those mistaked that I did and hard problems that I solved taught me something about persistence.
 I know there is some unnecessary code inside, I know that there is a lot of code that can be improved.
